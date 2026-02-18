@@ -1,5 +1,7 @@
 package main
 
+
 func main() {
-	race()
+	//race()
+	complex_race()
 }

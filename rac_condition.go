@@ -6,6 +6,7 @@ import (
 )
 
 var msg string
+
 var wg sync.WaitGroup
 
 func updateMessage(s string, m *sync.Mutex) {
