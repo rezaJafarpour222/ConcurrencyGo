@@ -22,7 +22,7 @@ func main() {
 		"theta",
 		"epsilon",
 	}
-	wg.Add(9)
+	wg.Add(len(words))
 	for i, x := range words {
 		printSomething(fmt.Sprintf("%d: %s", i, x), &wg)
 	}
