@@ -40,4 +40,5 @@ func complex_race() {
 	}
 	wg.Wait()
 	fmt.Printf("final bank balance: $%d.00", banBalance)
+	fmt.Println()
 }
